@@ -1,4 +1,4 @@
-# Ubuntu/Debian Active Directory Domain Join Script
+# Debian/Ubuntu Active Directory Domain Join Script
 
 This comprehensive Bash script automates the process of joining an Ubuntu or Debian system to an Active Directory (AD) domain. Beyond basic domain integration, it includes crucial configurations to ensure seamless **Kerberos-based Single Sign-On (SSO)** for accessing SMB/CIFS network shares, particularly beneficial for desktop environments like KDE Plasma (e.g., with Dolphin file manager).
 
@@ -31,20 +31,20 @@ If you've experienced scenarios where you could log into your Linux machine with
 1.  **Download the script:**
 
     ```bash
-    wget https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO_NAME/main/ad_join.sh
-    # Or just copy-paste the content into a file named ad_join.sh
+    wget https://raw.githubusercontent.com/3n1gmus/Debian_AD_Join/main/Debian-AD-Join.sh
+    # Or just clone the repository and navigate to the script
     ```
 
 2.  **Make the script executable:**
 
     ```bash
-    chmod +x ad_join.sh
+    chmod +x Debian-AD-Join.sh
     ```
 
 3.  **Run the script with `sudo`:**
 
     ```bash
-    sudo ./ad_join.sh
+    sudo ./Debian-AD-Join.sh
     ```
 
     The script will then guide you through providing the necessary Active Directory information (domain name, realm, DC IP, admin user, and password).
